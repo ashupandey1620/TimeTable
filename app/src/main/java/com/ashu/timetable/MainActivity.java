@@ -11,10 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ListView ListView;
 
-    private void setupView(){
-        toolbar = (Toolbar)findViewById(R.id.ToolbarMain);
-        ListView = (ListView)findViewById(R.id.LVMain);
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
