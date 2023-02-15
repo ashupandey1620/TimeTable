@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.ListView;
-import android.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -14,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
 
-    CoveredFragment coveredFragment = new CoveredFragment();
+    ProfileFragment profileFragment = new ProfileFragment();
     ThisWeekFragment thisWeekFragment = new ThisWeekFragment();
     todayFragment todayFragment = new todayFragment();
     fragment_weekend weekendFragment = new fragment_weekend();
@@ -44,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.thisWeek:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, thisWeekFragment).commit();
                         return true;
-                    case R.id.covered:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container, coveredFragment).commit();
+                    case R.id.Profile:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
                         return true;
                     case R.id.weekend:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, weekendFragment).commit();

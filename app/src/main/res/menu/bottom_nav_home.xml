@@ -8,12 +8,13 @@
         android:title="This Week"
         android:icon="@drawable/ic_baseline_next_week_24"
         />
-    <item android:id="@+id/covered"
-        android:title="Covered"
-        android:icon="@drawable/ic_baseline_done_24"
+    <item android:id="@+id/Profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24"
         />
     <item android:id="@+id/weekend"
         android:title="WeekEnd"
         android:icon="@drawable/ic_baseline_weekend_24"
         />
+
 </menu>
