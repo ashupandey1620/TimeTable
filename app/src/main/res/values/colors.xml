@@ -12,6 +12,8 @@
     <color name="color_2">#F7DC6F</color>
     <color name="color_3">#F9E79F</color>
     <color name="yellow">#FFAE17</color>
+
+    <color name="new_color">#ffae17</color>
     <color name="Grey">#33000000</color>
     <color name="green">#109E52 </color>
     <color name="red">#DF3131</color>
