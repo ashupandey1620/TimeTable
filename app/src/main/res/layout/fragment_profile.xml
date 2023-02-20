@@ -58,6 +58,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
                 >
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="300dp"
@@ -66,9 +67,9 @@
                     app:cardCornerRadius="20dp"
                     app:cardElevation="20dp"
                     android:layout_centerInParent="true"
-
                     app:strokeWidth="8dp"
-                    app:strokeColor="@color/dark_slate_gray">
+                    app:strokeColor="@color/gray"
+                    app:cardBackgroundColor="@color/powder_blue">
                 </com.google.android.material.card.MaterialCardView>
             </RelativeLayout>
 
@@ -108,7 +109,7 @@
                             android:textColor="@color/black" />
 
                         <TextView
-                            android:id="@+id/leetcodeQues"
+                            android:id="@+id/leetcode"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
@@ -144,7 +145,7 @@
                             android:textColor="@color/black" />
 
                         <TextView
-                            android:id="@+id/done_calls"
+                            android:id="@+id/gfg"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
@@ -179,7 +180,7 @@
                             android:textColor="@color/black" />
 
                         <TextView
-                            android:id="@+id/shedual_calls"
+                            android:id="@+id/github"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
@@ -190,6 +191,124 @@
 
 
                 </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1.3"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:weightSum="3">
+
+
+                    <LinearLayout
+
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_3"
+                        android:elevation="1dp"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="LEETCODE"
+
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/CodeForces"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/main_blue" />
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.3"
+                        android:background="@color/new_color" />
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_2"
+                        android:elevation="1dp"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="GFG"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/codeChef"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/main_blue" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.3"
+                        android:background="@color/new_color" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_1"
+                        android:elevation="1dp"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="GITHUB"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/hackerRank"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/main_blue" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
 
             </LinearLayout>
         </LinearLayout>
