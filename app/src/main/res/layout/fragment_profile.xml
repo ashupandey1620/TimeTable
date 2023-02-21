@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ProfileFragment"
-    android:background="@drawable/black_3d"
+    android:background="@drawable/BK"
     android:orientation="vertical">
 
     <TextView
