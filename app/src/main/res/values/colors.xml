@@ -12,7 +12,18 @@
     <color name="color_2">#F7DC6F</color>
     <color name="color_3">#F9E79F</color>
     <color name="yellow">#FFAE17</color>
-
+    <color name="et_box_color">#E5EDF4</color>
+    <color name="et_text">#ffffff</color>
+    <color name="text_color">#1D272D</color>
+    <color name="bg_color">#ffffff</color>
+    <color name="card_color">#F9FCFF</color>
+    <color name="card_borderStripe">#CBD2D8</color>
+    <color name="bnw">#000000</color>
+    <color name="negative_red">#FF3636</color>
+    <color name="positive_green">#1CBD2C</color>
+    <color name="card_shadow_color">#B0D6FF</color>
+    <color name="drag_handle_color">#707070</color>
+    <color name="secondary_color">#E5EEF7</color>
     <color name="new_color">#ffae17</color>
     <color name="Grey">#33000000</color>
     <color name="green">#109E52 </color>
