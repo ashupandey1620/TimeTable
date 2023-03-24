@@ -16,9 +16,8 @@
         android:textColor="@color/white"
         android:background="@color/gray"
         android:id="@+id/WeekendHeading"
-        android:layout_alignParentTop="true"
         android:textAlignment="center"
-        android:text="Weekend Plan" />
+        android:text="@string/weekend_plan" />
 
 
 
