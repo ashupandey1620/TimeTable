@@ -16,9 +16,8 @@
         android:textStyle="bold"
         android:background="@color/gray"
         android:id="@+id/TodayHeading"
-        android:layout_alignParentTop="true"
         android:textAlignment="center"
-        android:text="Today" />
+        android:text="@string/today" />
 
 
 
