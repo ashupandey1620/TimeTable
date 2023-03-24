@@ -23,4 +23,7 @@
     <string name="github2">GITHUB2</string>
     <string name="login_with_email">Login with Email</string>
     <string name="login_with_provided_credentials">Login with provided credentials</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
 </resources>
