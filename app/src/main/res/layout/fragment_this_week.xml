@@ -16,9 +16,8 @@
         android:textColor="@color/white"
         android:background="@color/gray"
         android:id="@+id/ThisWeekHeading"
-        android:layout_alignParentTop="true"
         android:textAlignment="center"
-        android:text="This Week" />
+        android:text="@string/this_week" />
 
 
 
