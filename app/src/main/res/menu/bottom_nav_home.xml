@@ -13,7 +13,7 @@
         android:icon="@drawable/baseline_person_24"
         />
     <item android:id="@+id/weekend"
-        android:title="WeekEnd"
+        android:title="@string/weekend_plan"
         android:icon="@drawable/ic_baseline_weekend_24"
         />
 
