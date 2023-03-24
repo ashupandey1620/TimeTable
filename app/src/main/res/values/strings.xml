@@ -17,4 +17,6 @@
     <string name="leetcode">LEETCODE</string>
     <string name="_0">0</string>
     <string name="gfg">GFG</string>
+    <string name="github">GITHUB</string>
+    <string name="codechef">Codechef</string>
 </resources>
