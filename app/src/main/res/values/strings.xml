@@ -28,4 +28,5 @@
     <string name="login">Login</string>
     <string name="this_week">This Week</string>
     <string name="codechef2">codechef2</string>
+    <string name="hide_bottom_view_on_scroll_behavior" />
 </resources>
