@@ -7,19 +7,13 @@
     android:background="@color/light_cyan"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_height="80dp"
-        android:id="@+id/profile"
-        android:src="@drawable/timetable" />
+
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/profile">
+        android:layout_below="@+id/login_gif">
 
         <LinearLayout
             android:layout_width="match_parent"
