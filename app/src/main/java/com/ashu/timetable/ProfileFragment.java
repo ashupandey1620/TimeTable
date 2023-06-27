@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -115,5 +116,14 @@ public class ProfileFragment extends Fragment {
         entries.add(new Entry(3,7));
         // Add more entries as needed
         return entries;
+    }
+
+    private int calculateChartHeight() {
+        // Calculate the desired height based on your requirements
+        // For example, you can use the display metrics to calculate a percentage of the screen height
+        // Here's an example that sets the chart height to 70% of the screen height
+        DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+        int screenHeight = displayMetrics.heightPixels;
+        return (int) (screenHeight * 0.7);
     }
 }
