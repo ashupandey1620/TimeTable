@@ -53,23 +53,27 @@
                 android:layout_marginTop="50dp"
                 android:orientation="vertical"
                 >
-                <FrameLayout
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <com.github.mikephil.charting.charts.CombinedChart
                         android:id="@+id/chart"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="8dp" />
 
-                </FrameLayout>
+                    <!-- Other views or layout elements in your activity -->
+
+                </LinearLayout>
 
 
-            <RelativeLayout
+                <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginBottom="30dp"
