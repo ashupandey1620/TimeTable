@@ -8,16 +8,7 @@
     android:background="@color/light_cyan"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="italic"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        android:background="@color/gray"
-        android:id="@+id/ProfileHeading"
-        android:textAlignment="center"
-        android:text="@string/profile" />
+
 
     <ScrollView
         android:layout_width="match_parent"
