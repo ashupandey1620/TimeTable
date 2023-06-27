@@ -76,10 +76,17 @@ public class ProfileFragment extends Fragment {
         CombinedData combinedData = new CombinedData();
         combinedData.setData(lineData);
 
-        // Set the CombinedData to the chart
-        chart.setData(combinedData);
-        chart.invalidate();
 
+        chart.setData(combinedData);//refresh chart
+
+
+        // Adjust chart dimensions programmatically
+        int chartHeight = calculateChartHeight(); // Calculate the desired height here
+        ViewGroup.LayoutParams layoutParams = chart.getLayoutParams();
+        layoutParams.height = chartHeight;
+        chart.setLayoutParams(layoutParams);
+
+        chart.invalidate(); // Refresh the chart
 
         return v;
     }
