@@ -9,11 +9,11 @@
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_marginBottom="200dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/login_gif"
-        app:lottie_rawRes="@raw/card"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/bandar"
         app:lottie_loop="true"
         app:lottie_autoPlay="true" />
 
